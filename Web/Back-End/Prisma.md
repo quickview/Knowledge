@@ -37,7 +37,7 @@ const commentsOfPost = await prisma
 1. [prisma 공식 사이트](https://www.prisma.io/) 에 접속을 한후 로그인 까지 해준다. (git hub로 로그인 가능)
 2. 아래 사진 처럼 나오면 ADD A SERVICE 로 들어가준다.
 
-![problem](C:\Users\multicampus\Desktop\SSAFY\캡쳐\problem.png)
+![AddService](../../Img/Prisma/AddService.png)
 
 
 
