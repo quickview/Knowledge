@@ -44,20 +44,18 @@ const commentsOfPost = await prisma
 3. 로그인 순서는 처음으로 prisma를 사용하면 파란색의 ```npm install -g prisma``` 로 prisma를 설치해준다.
 
    
-
-![이미지 3](C:\Users\multicampus\Desktop\SSAFY\캡쳐\이미지 3.png)
+![Login](../../Img/Prisma/Login.png)
 
 
 
 4. 그 다음 터미널에 초록색의 값을 복 붙 하면 로그인이 되면서 아래 사진처럼 나올 것이다.
 
-![이미지 4](C:\Users\multicampus\Desktop\SSAFY\캡쳐\이미지 4.png)
-
+![Login_Success](../../Img/Prisma/Login_Success.png)
 
 
 5. CREATE NEW SERVICE 를 누르면 아래 처럼 나온다. 
 
-![이미지 5](C:\Users\multicampus\Desktop\SSAFY\캡쳐\이미지 5.png)
+![Prisma_init](../../Img/Prisma/Prisma_init.png)
 
 터미널에 주황색 부분 ```prisma init hellow-world``` 를 입력한다.
 
@@ -65,29 +63,28 @@ const commentsOfPost = await prisma
 
 6. 터미널에 입력을하면 아래 사진처럼 나올텐데
 
-   ![이미지 6](C:\Users\multicampus\Desktop\SSAFY\캡쳐\이미지 6.png)
+![Server_Choose](../../Img/Prisma/Server_Choose.png)
+
 
    
+테스트를 위해 
 
-   테스트를 위해 
+ 1. Demo server + MySql database 를 선택 후에
 
-   1. Demo server + MySql database 를 선택 후에
+ 2. us 서버
 
-   2. us 서버
+ 3. Choose a name for your service(hello-world) ->Enter
 
-   3. Choose a name for your service(hello-world) ->Enter
+ 4. Choose a name for your stage(dev) -> Enter
 
-   4. Choose a name for your stage(dev) -> Enter
-
-   5. Select the programing language for the generated Prisma client에서는 
-
-      Prisma JavaScript Client를 선택
+ 5. Select the programing language for the generated Prisma client에서는 
+    Prisma JavaScript Client를 선택
 
       
 
-      설치는 이게 끝이다. 
+   설치는 이게 끝이다. 
 
-   ----
+----
 
    
 
